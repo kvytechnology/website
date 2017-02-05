@@ -540,11 +540,12 @@ footer .social {
 }
 
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 2em 0;
   float: left;
   width: 100%;
   position: relative;
   background: #262626;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
@@ -556,10 +557,13 @@ footer .social {
 }
 #fh5co-footer h3 {
   font-size: 18px;
+  margin-bottom: 15px;
 }
-#fh5co-footer [class*="col"] {
-  padding-bottom: 30px;
+
+#fh5co-footer p {
+  font-size: 16px;
 }
+
 #fh5co-footer .btn {
   color: #fff;
 }
@@ -573,8 +577,9 @@ footer .social {
 }
 #fh5co-footer ul li {
   padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   list-style: none;
+  font-size: 16px;
 }
 #fh5co-footer ul li a {
   color: rgba(255, 255, 255, 0.4);
@@ -592,14 +597,14 @@ footer .social {
 #fh5co-footer .fh5co-social li i {
   float: left;
   font-size: 20px;
-  width: 40px;
+  width: 30px;
 }
 
 .fh5co-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   clear: both;
-  margin-top: 40px !important;
-  padding: 40px 0 0 0;
+  margin-top: 10px !important;
+  padding: 20px 0 0 0;
 }
 .fh5co-copyright span {
   display: block;
