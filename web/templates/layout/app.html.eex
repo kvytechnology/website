@@ -28,7 +28,7 @@
   	<script src="js/respond.min.js"></script>
   	<![endif]-->
 
-    <title>Hello SoftwareAgency!</title>
+    <title>KVY Technology</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
