@@ -19,3 +19,19 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+function initActivePage(){
+  let currentPage = window.location.pathname;
+  $('.top-menu-bar').removeClass('active');
+  if (currentPage === '/about') {
+    $('#about-page').addClass('active');
+  } else if (currentPage === '/services') {
+    $('#service-page').addClass('active');
+  } else if (currentPage === '/contact') {
+    $('#contact-page').addClass('active');
+  } else {
+    $('#home-page').addClass('active');
+  }
+}
+
+initActivePage();

@@ -9,10 +9,10 @@
         </div>
         <div class="col-md-6">
           <ul class="nav text-center">
-            <li class="active"><a href="/"><span>Work</span></a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li id='home-page' class='top-menu-bar'><a href="/"><span>Work</span></a></li>
+            <li id='about-page' class='top-menu-bar'><a href="/about">About</a></li>
+            <li id='service-page' class='top-menu-bar'><a href="/services">Services</a></li>
+            <li id='contact-page' class='top-menu-bar'><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-3">
