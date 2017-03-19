@@ -502,7 +502,7 @@ footer .social {
   margin-left: -30px;
 }
 .testimony .quote i {
-  font-family: "Playfair Display", Arial, serif;
+  /*font-family: "Playfair Display", Arial, serif;*/
   font-size: 30px;
   width: 80px;
   height: 80px;
@@ -530,7 +530,7 @@ footer .social {
   font-size: 20px;
   line-height: 1.6em;
   color: #999999;
-  font-family: "Playfair Display", Arial, serif;
+  /*font-family: "Playfair Display", Arial, serif;*/
 }
 .testimony blockquote span {
   color: rgba(0, 0, 0, 0.7);
