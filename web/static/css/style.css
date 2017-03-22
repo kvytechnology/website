@@ -20,14 +20,14 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #7addf1;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #52d3aa !important;
+  color: #7addf1 !important;
 }
 a:focus, a:active {
   outline: none;
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #7addf1;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #7addf1;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #7addf1;
 }
 
 .box-wrap {
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .nav li.active a {
   color: #000;
   background: transparent;
-  border-bottom: 2px solid #52d3aa;
+  border-bottom: 2px solid #7addf1;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .nav li.active a {
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #52d3aa;
+    color: #7addf1;
   }
 }
 @media screen and (max-width: 992px) {
@@ -183,9 +183,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro h2 {
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1.5em;
+  color: black;
 }
 
 #services .service {
@@ -209,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #services .service .service-icon i {
   font-size: 40px;
-  color: #52d3aa;
+  color: #7addf1;
 }
 #services .service p {
   font-size: 18px;
@@ -385,7 +386,7 @@ footer .social {
 }
 .form-control:focus, .form-control:active {
   box-shadow: none;
-  border: 2px solid #52d3aa;
+  border: 2px solid #7addf1;
 }
 
 #submit {
@@ -419,14 +420,14 @@ footer .social {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #7addf1;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #7addf1;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -463,7 +464,7 @@ footer .social {
   transition: 0.5s;
 }
 .social li a:hover, .social li a:focus {
-  color: #52d3aa;
+  color: #7addf1;
   text-decoration: none;
 }
 .social li a i {

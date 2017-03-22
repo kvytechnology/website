@@ -1,0 +1,16 @@
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" preserveAspectRatio="none">
+
+    <rect width="128" height="128" fill="rgba(102,217,239,0.5)" x="64" y="60" ry="48">
+      <animateTransform attributeName="transform" type="rotate" from="360 128 128" to="0 128 128" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="128" height="128" fill="rgba(102,217,239,0.5)" x="64" y="64" ry="48">
+      <animateTransform attributeName="transform" type="rotate" from="0 128 128" to="360 128 128" dur="12s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="128" height="128" fill="rgba(102,217,239,0.5)" x="60" y="64" ry="48">
+      <animateTransform attributeName="transform" type="rotate" from="0 128 128" to="360 128 128" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="128" cy="128" r="60" fill="#fff"/>
+</svg>

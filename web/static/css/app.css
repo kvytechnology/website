@@ -1,1 +1,19 @@
-/* This file is for your main application css. */
+svg{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  max-width:20em;
+  max-height:20em;
+  margin:auto auto;
+  z-index: 0;
+}
+
+.main-intro {
+  background: url('../images/animation.svg');
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -55px;
+}
