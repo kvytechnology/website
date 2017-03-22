@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Technologies</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <img src="images/rails-logo.svg" width="100%" alt="ruby on rails logo">
+    </div>
+    <div class="col-md-1">
+      <img src="images/vue-logo.png" width="100%" alt="vuejs logo">
+    </div>
+    <div class="col-md-1">
+      <img src="images/postgresql-logo.svg" width="100%" alt="postgresql logo">
+    </div>
+    <div class="col-md-2">
+      <img src="images/cucumber-logo.svg" width="100%" alt="cucumber logo">
+    </div>
+    <div class="col-md-2">
+      <img src="images/elixir-logo.png" width="100%" alt="elixir logo">
+    </div>
+    <div class="col-md-1">
+      <img src="images/webpack-logo.svg" width="100%" alt="webpack logo">
+    </div>
+
+    <div class="col-md-2">
+      <img src="images/heroku-logo.svg" width="100%" alt="Heroku logo">
+    </div>
+    <div class="col-md-1">
+      <img src="images/javascript-logo.png" width="100%" alt="javascript logo">
+    </div>
+  </div>
+  <br/>
+</div>

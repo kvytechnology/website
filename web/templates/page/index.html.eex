@@ -4,5 +4,6 @@
 		<%= render SoftwareAgency.SharedView, "portfolios.html", conn: @conn %>
 		<%= render SoftwareAgency.SharedView, "services.html", conn: @conn %>
 		<%= render SoftwareAgency.SharedView, "testimonies.html", conn: @conn %>
+		<%= render SoftwareAgency.SharedView, "technologies.html", conn: @conn %>
 		<%= render SoftwareAgency.SharedView, "footer.html", conn: @conn %>
 	</div>
