@@ -16,4 +16,13 @@ defmodule SoftwareAgency.PageController do
   def contact(conn, _params) do
     render conn, "contact.html"
   end
+
+  def inquery(conn, %{"inquery" => sender_info }) do
+    IO.inspect sender_info
+    SoftwareAgency.Emails.inquery(sender_info) |> SoftwareAgency.Mailer.deliver_now
+    render(conn, "index.html")
+    conn
+    |> put_flash(:info, "Thank you.")
+    |> redirect(to: page_path(conn, :index))
+  end
 end

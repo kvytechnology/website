@@ -20,6 +20,7 @@ defmodule SoftwareAgency.Router do
     get "/about", PageController, :about
     get "/services", PageController, :services
     get "/contact", PageController, :contact
+    post "/inquery", PageController, :inquery
   end
 
   # Other scopes may use custom stacks.
