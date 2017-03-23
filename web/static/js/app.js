@@ -36,4 +36,4 @@ function initActivePage(){
 
 initActivePage();
 
-$('#contact-form').validate();
+// $('#contact-form').validate();

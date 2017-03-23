@@ -416,11 +416,13 @@ footer .social {
 }
 
 .btn {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 0px;
+  box-shadow: 0 2px 2px 0 rgb(20, 92, 113);
 }
 .btn.btn-primary {
   background: #7addf1;
@@ -628,6 +630,27 @@ footer .social {
 
 #services {
   padding-bottom: 0em;
+}
+
+#let-build {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#let-build a {
+  border-radius: 0px;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgb(20, 92, 113);
+  padding: 14px;
+  text-transform: inherit;
+  font-weight: lighter;
+  padding-left: 60px;
+    padding-right: 60px;
+}
+
+#let-build a:hover {
+  text-decoration: none !important;
 }
 
 
