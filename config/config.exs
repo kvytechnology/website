@@ -19,7 +19,7 @@ config :software_agency, SoftwareAgency.Endpoint,
 
 config :software_agency, SoftwareAgency.Mailer,
  adapter: Bamboo.SendgridAdapter,
- api_key: SYSTEM.get_env("SENDGRID_API_KEY")
+ api_key: System.get_env("SENDGRID_API_KEY")
 
 # Configures Elixir's Logger
 config :logger, :console,
