@@ -1,12 +1,11 @@
 <div class="box-wrap">
   <%= render SoftwareAgency.SharedView, "header.html", conn: @conn %>
-  <section id="intro">
+  <section id="intro-service">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
 						<div class="intro animate-box">
 							<h1>Services</h1>
-							<h2>We are web agency based in London &amp; we love functional &amp; meaningful design.</h2>
 						</div>
 					</div>
 				</div>
