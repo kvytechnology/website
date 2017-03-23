@@ -1,6 +1,6 @@
 <div class="box-wrap">
   <%= render SoftwareAgency.SharedView, "header.html", conn: @conn %>
-  <section id="intro">
+  <section id="intro-contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
@@ -15,23 +15,23 @@
     <main id="main">
   			<div class="container">
   				<div class="col-md-8 col-md-offset-2 animate-box">
-            <%= form_for @conn, page_path(@conn, :inquery), [as: :inquery], fn f -> %>
+            <%= form_for @conn, page_path(@conn, :inquery), [as: :inquery, id: "contact-form"], fn f -> %>
               <div class="form-group row">
                 <div class="col-md-6 field">
-                  <%= label(f, :firstname, "First Name") %>
-                  <%= text_input f, :firstname, class: "form-control" %>
+                  <%= label(f, :firstname, "First Name *") %>
+                  <%= text_input f, :firstname, class: "form-control", minlength: "2", required: true %>
                 </div>
 
                 <div class="col-md-6 field">
-                  <%= label(f, :lastname, "Last Name") %>
-                  <%= text_input f, :lastname, class: "form-control" %>
+                  <%= label(f, :lastname, "Last Name *") %>
+                  <%= text_input f, :lastname, class: "form-control", minlength: "2", required: true %>
                 </div>
               </div>
 
               <div class="form-group row">
   							<div class="col-md-6 field">
-                  <%= label(f, :email, "Email") %>
-                  <%= text_input f, :email, class: "form-control" %>
+                  <%= label(f, :email, "Email *") %>
+                  <%= email_input f, :email, class: "form-control", required: true %>
   							</div>
   							<div class="col-md-6 field">
                   <%= label(f, :phone, "Phone") %>
@@ -41,8 +41,8 @@
 
               <div class="form-group row">
   							<div class="col-md-12 field">
-                  <%= label(f, :message, "Message") %>
-                  <%= textarea(f, :message, cols: "30", rows: "10", class: "form-control") %>
+                  <%= label(f, :message, "Message *") %>
+                  <%= textarea(f, :message, cols: "30", rows: "10", class: "form-control", required: true, minlength: "140") %>
   							</div>
   						</div>
 

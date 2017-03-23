@@ -166,6 +166,9 @@ h1, h2, h3, h4, h5, h6 {
 #intro, #work, #product, #about, #services {
   padding-bottom: 5em;
 }
+#intro-contact {
+  padding-bottom: 2em;
+}
 @media screen and (max-width: 768px) {
   #intro, #work, #product, #about, #services {
     padding-bottom: 3em;

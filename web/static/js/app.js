@@ -35,3 +35,5 @@ function initActivePage(){
 }
 
 initActivePage();
+
+$('#contact-form').validate();
