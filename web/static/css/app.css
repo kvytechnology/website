@@ -17,3 +17,9 @@ svg{
   background-position: center;
   background-position-y: -55px;
 }
+
+#phone-number{
+  position: relative;
+  top: -4px;
+  font-weight: bold;
+}
