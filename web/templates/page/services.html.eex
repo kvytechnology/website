@@ -20,8 +20,9 @@
   							<div class="service-icon">
   								<i class="icon-command"></i>
   							</div>
-  							<h2>Brand Identity</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+  							<h2>Web development</h2>
+  							<p>We build digital services for any device. Taking an agile approach to development,
+                  we use open-source technologies like Ruby on Rails and Javascript for speed, flexibility and quality.</p>
   						</div>
   					</div>
   					<div class="col-md-4 animate-box">
@@ -29,7 +30,7 @@
   							<div class="service-icon">
   								<i class="icon-drop2"></i>
   							</div>
-  							<h2>Web Design &amp; UI</h2>
+  							<h2>Ecommerce development</h2>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
   						</div>
   					</div>
@@ -38,38 +39,11 @@
   							<div class="service-icon">
   								<i class="icon-anchor"></i>
   							</div>
-  							<h2>Development &amp; CMS</h2>
+  							<h2>Ruby on Rails consulting</h2>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
   						</div>
   					</div>
 
-  					<div class="col-md-4 animate-box">
-  						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-command"></i>
-  							</div>
-  							<h2>Brand Identity</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-  						</div>
-  					</div>
-  					<div class="col-md-4 animate-box">
-  						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-drop2"></i>
-  							</div>
-  							<h2>Web Design &amp; UI</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-  						</div>
-  					</div>
-  					<div class="col-md-4 animate-box">
-  						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-anchor"></i>
-  							</div>
-  							<h2>Development &amp; CMS</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-  						</div>
-  					</div>
   				</div>
   			</div>
   		</section>
