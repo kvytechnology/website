@@ -21,6 +21,8 @@ config :software_agency, SoftwareAgency.Mailer,
  adapter: Bamboo.SendgridAdapter,
  api_key: System.get_env("SENDGRID_API_KEY")
 
+config :bugsnag, api_key: System.get_env("BUGSNAG_API_KEY")
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",

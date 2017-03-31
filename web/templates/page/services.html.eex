@@ -47,6 +47,6 @@
   				</div>
   			</div>
   		</section>
-
+  <%= render SoftwareAgency.SharedView, "let_build.html", conn: @conn %>
   <%= render SoftwareAgency.SharedView, "footer.html", conn: @conn %>
 </div>
