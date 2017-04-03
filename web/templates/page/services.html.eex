@@ -13,34 +13,31 @@
 		</section>
 
     <section id="services">
-  			<div class="container">
+  			<div class="container service-page">
   				<div class="row">
   					<div class="col-md-4 animate-box">
   						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-command"></i>
-  							</div>
   							<h2>Web development</h2>
-  							<p>We build digital services for any device. Taking an agile approach to development,
-                  we use open-source technologies like Ruby on Rails and Javascript for speed, flexibility and quality.</p>
+  							<p>We bring your ideas into demonstrateable and clickable reality.
+                We design and develop your application through lean and iteratable processes. We're flexiable with changes in requirements.
+                Let us become your tech team to bring your ideas to life. </p>
   						</div>
   					</div>
   					<div class="col-md-4 animate-box">
   						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-drop2"></i>
-  							</div>
   							<h2>Ecommerce development</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+  							<p>We deliver Spree Commerce development. We recommend Spree for quick development, easy integration (PayPal, Braintree, Mailchip, Sendgrid, Amazon).
+                  Spree offers a complete API too for any other integrations. We also can easily do the customization of Spree Commerce to meet your need.
+                </p>
   						</div>
   					</div>
   					<div class="col-md-4 animate-box">
   						<div class="service">
-  							<div class="service-icon">
-  								<i class="icon-anchor"></i>
-  							</div>
   							<h2>Ruby on Rails consulting</h2>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+  							<p>We provide micro and focus Ruby on Rails services such as:
+                  bug fixes, enhancements, test coverage maintenance and improvement, code quality maintenance and improvement.</p>
+
+                <p>Building the app is only the first part. Keeping it up and running maintainble is vital to your business. That's why we're having these services.</p>
   						</div>
   					</div>
 

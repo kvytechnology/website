@@ -16,7 +16,13 @@
   	<div class="container">
   		<div class="col-md-8 col-md-offset-2 animate-box">
   			<p>
-          <b>KVY Technology</b> is a new lean software agency. We're team of skilled craftman.
+          <b>KVY Technology</b> is a lean software agency from Ho Chi Minh city. We're <strong>results-driven</strong> team of skilled craftmen.
+          We collaborate to grow your ideas for digital products and services. We do this through agile and lean techniques, using Ruby on Rails
+          and Javascript.
+        </p>
+
+        <p>
+          <h3 id="meet-team">MEET OUR TEAM</h3>
         </p>
   		</div>
   	</div>
