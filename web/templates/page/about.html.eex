@@ -23,6 +23,41 @@
 
         <p>
           <h3 id="meet-team">MEET OUR TEAM</h3>
+          <div class="row">
+        <div class="col-sm-4">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Long Nguyen</h4>
+                    <span>Software Craftman</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Man Vuong</h4>
+                    <span>Software Craftman</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Quyet Bui</h4>
+                    <span>Software Craftman</span>
+                </div>
+            </div>
+        </div>
+    </div><!-- //end row -->
         </p>
   		</div>
   	</div>
