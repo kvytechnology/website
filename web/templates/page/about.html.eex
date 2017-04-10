@@ -21,43 +21,32 @@
           and Javascript.
         </p>
 
-        <p>
+        <p id="team-page">
           <h3 id="meet-team">MEET OUR TEAM</h3>
-          <div class="row">
-        <div class="col-sm-4">
-            <div class="team-members">
-                <div class="team-avatar">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
-                </div>
-                <div class="team-desc">
-                    <h4>Long Nguyen</h4>
-                    <span>Software Craftman</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-members">
-                <div class="team-avatar">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
-                </div>
-                <div class="team-desc">
-                    <h4>Man Vuong</h4>
-                    <span>Software Craftman</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-members">
-                <div class="team-avatar">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400%C3%97400&w=400&h=400" alt="">
-                </div>
-                <div class="team-desc">
-                    <h4>Quyet Bui</h4>
-                    <span>Software Craftman</span>
-                </div>
-            </div>
-        </div>
-    </div><!-- //end row -->
+          <div class="col-lg-4 col-sm-6 text-center team-section">
+            <img class="img-circle img-responsive img-center" src="https://avatars0.githubusercontent.com/u/2282642?v=3&s=460" alt="">
+            <h3>Long Nguyen<br/>
+              <small>Software Craftman</small><br/>
+              <span><a href="https://github.com/kimquy" target="_blank" class="team-link"><i class="icon-github"></i></a></span>
+            </h3>
+            <p class="team-member-desc">What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center team-section">
+            <img class="img-circle img-responsive img-center" src="https://avatars2.githubusercontent.com/u/624862?v=3&s=460" alt="">
+            <h3>Man Vuong <br/>
+              <small>Software Craftman</small><br/>
+              <span><a href="https://github.com/kidlab" target="_blank" class="team-link"><i class="icon-github"></i></a></span>
+            </h3>
+            <p class="team-member-desc">What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center team-section">
+            <img class="img-circle img-responsive img-center" src="https://avatars2.githubusercontent.com/u/5118000?v=3&s=460" alt="">
+            <h3>Bui Quyet<br/>
+              <small>Software Craftman</small><br/>
+              <span><a href="https://github.com/buitranquyet" target="_blank" class="team-link"><i class="icon-github"></i></a></span>
+            </h3>
+            <p class="team-member-desc">What does this team member to? Keep it short! This is also a great spot for social links!</p>
+          </div>
         </p>
   		</div>
   	</div>
